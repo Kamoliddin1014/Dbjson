@@ -1,38 +1,280 @@
-.App {
+.myNav {
+  background-color: #072D51 !important;
+}
+.myNavUl {
+  margin-left: auto;
+  margin-right: auto;
+}
+.tryDemoButton {
+  width: 147px;
+  height: 53px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  /* Cta */
+  color: #1D92FF;
+}
+.myHeaderCon {
+  background-color: #072D51;
+}
+@media (max-width: 1000px) {
+  .myHeaderCon {
+    text-align: center;
+  }
+}
+.headerLorem {
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Cta */
+  color: #1D92FF;
+}
+.headerP {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+}
+.tryButton {
+  width: 205px;
+  height: 53px;
+  left: 227px;
+  top: 552px;
+  background: #072D51;
+  border-radius: 3px;
+  border: 1px solid white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  text-transform: capitalize;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.tryButton:hover {
+  width: 205px;
+  height: 53px;
+  left: 227px;
+  top: 552px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  text-transform: capitalize;
+  /* Cta */
+  color: #1D92FF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.twoSaas {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 135%;
+  /* or 53px */
+  text-transform: capitalize;
+  color: #000000;
+}
+.e-commerce {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  text-transform: capitalize;
+  color: rgba(1, 7, 13, 0.7);
+  
+}
+.freeButton {
+  width: 198px;
+  height: 49px;
+  /* Cta */
+  background: white;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  text-transform: capitalize;
+  color: #1D92FF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.freeButton:hover {
+  width: 198px;
+  height: 49px;
+  left: 227px;
+  top: 2538px;
+  /* Cta */
+  background: #1D92FF;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  text-transform: capitalize;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.thirdImg {
+  width: 100%;
+  margin-top: 150px;
+}
+.withAName {
+  font-style: normal;
+font-weight: 600;
+font-size: 39px;
+line-height: 140%;
+/* or 55px */
+text-transform: capitalize;
+color: #01070D;
+}
+.monthly {
+  width: 110px;
+  height: 34px;
+  left: 338px;
+  top: 4149.1px;
+  background: #FFFFFF;
+  box-shadow: 4px 2px 38px rgba(0, 0, 0, 0.02);
+  border-radius: 18px;
+}
+.monthlyButton .div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.totalCon {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buyNowButton {
+  margin-top: 20px;
+  width: 208px;
+  height: 43px;
+  left: 344px;
+  top: 4398.05px;
+  /* Cta */
+  background: #1D92FF;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buyNowButton:hover {
+  background-color: white;
+  color: black;
 }
+.conaddfree {
+  margin-left: auto;
+  margin-right: auto;
+}
+.cons {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: 10px;
+line-height: 160%;
+/* or 26px */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+color: #000000;
+
+opacity: 0.6;
+}
+.student {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  color: #01070D;
+}
+.fitheen {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 135%;
+  /* identical to box height, or 53px */
+  color: #01070D;
+  
+}
+.totalConThird {
+  color: black;
+}
+.totalConThird:hover{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.totalThird {
+  background-color: #FFFFFF;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.totalThird:hover {
+  background-color: #002547;
+  border-radius: 1%;
+  color: white;
+}
+.keepCalm {
+  margin-top: 80px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 135%;
+  /* identical to box height, or 53px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #01070D;
+}
+.inputEmail {
+  margin-top: 120px;
+  background-color: #002648;
+  color: #FFFFFF;
+}
+.inputP {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.inputEmail1 {
+  width: 70%;
+  background-color: #002648;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+@media(max-width: 100px) {
+  .inputEmail {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+}
+.footerContainer {
+  color: white;
+  background-color: #070C11;
+  margin-bottom: 0;
+}
+@media (max-width: 1000px) {
+  .footerContainer {
+    text-align: center;
   }
 }

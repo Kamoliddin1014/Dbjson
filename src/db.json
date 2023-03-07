@@ -1,0 +1,78 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "name": "Kamoliddin",
+            "surname": "Xaydaraliyev",
+            "age": 18
+        },
+        {
+            "id": 2,
+            "name": "Elmurod",
+            "surname": "Haydarov",
+            "age": 18
+        },
+        {
+            "id": 3,
+            "name": "Firdavs",
+            "surname": "Isroiljonov",
+            "age": 13 
+        },
+        {
+            "id": 4,
+            "name": "Abdulloh",
+            "surname": "Alijonov",
+            "age": 16
+        },
+        {
+            "id": 5,
+            "name": "Nurislom",
+            "surname": "Abdurahmonov",
+            "age": 17
+        },
+        {
+            "id": 6,
+            "name": "Abdushukur",
+            "surname": "Urinboev",
+            "age": 40
+        }
+    ],
+    "comments" : [
+        {
+            "id": 1,
+            "name": "Kamoliddin",
+            "surname": "Xaydaraliyev",
+            "age": 18
+        },
+        {
+            "id": 2,
+            "name": "Elmurod",
+            "surname": "Haydarov",
+            "age": 18
+        },
+        {
+            "id": 3,
+            "name": "Firdavs",
+            "surname": "Isroiljonov",
+            "age": 13 
+        },
+        {
+            "id": 4,
+            "name": "Abdulloh",
+            "surname": "Alijonov",
+            "age": 16
+        },
+        {
+            "id": 5,
+            "name": "Nurislom",
+            "surname": "Abdurahmonov",
+            "age": 17
+        },
+        {
+            "id": 6,
+            "name": "Abdushukur",
+            "surname": "Urinboev",
+            "age": 40
+        }
+    ]
+}
